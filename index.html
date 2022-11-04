@@ -47,13 +47,17 @@
 					</div>
 					<div class="pass" class="error">
 						<div class="inputs">
-							<label for="password" class="labels">PASSWORD</label>
+							<label for="password" class="labels passwordLabel"
+								>PASSWORD</label
+							>
 							<input type="password" name="password" id="password" required />
 						</div>
 					</div>
 					<div class="confirmPass" class="error">
 						<div class="inputs">
-							<label for="confirmPass" class="labels">CONFIRM PASSWORD </label>
+							<label for="confirmPass" class="labels confirmLabel"
+								>CONFIRM PASSWORD</label
+							>
 							<input
 								type="password"
 								name="confirmPass"
@@ -65,7 +69,13 @@
 				</form>
 			</div>
 			<div class="bottom">
-				<input type="submit" form="signUp" value="Create Account" class="btn" />
+				<input
+					type="submit"
+					form="signUp"
+					value="Create Account"
+					class="btn"
+					disabled
+				/>
 				<p class="login">
 					<strong>Already have and account? <a href="/">Log in</a></strong>
 				</p>
