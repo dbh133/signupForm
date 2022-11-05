@@ -151,3 +151,21 @@ input:invalid {
 .invalid {
 	color: red;
 }
+
+@media screen and (max-width: 1024px) {
+	.warning {
+		font-size: 3vw;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.warning {
+		font-size: 3.1vw;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.warning {
+		font-size: 3.4vw;
+	}
+}
