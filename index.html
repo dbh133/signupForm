@@ -9,79 +9,81 @@
 		<script src="scripts.js" defer></script>
 	</head>
 	<body>
-		<div class="title">
-			<h1>
-				<img src="milliejames.svg" alt="millie james logo" />Millie James
-				Creations
-			</h1>
-		</div>
-		<div class="signupForm">
-			<div class="top">
-				<p class="warning">
-					This is not a real online service! You know you need something like
-					this in your life to help you realize your deepest dreams. Sign up now
-					to get started.<br /><br />You know you want to.
-				</p>
+		<div class="container">
+			<div class="title">
+				<h1>
+					<img src="milliejames.svg" alt="millie james logo" />Millie James
+					Creations
+				</h1>
 			</div>
-			<div class="forms">
-				<form id="signUp">
-					<h2>Let's do this!</h2>
-					<div class="fName">
-						<div class="inputs">
-							<label for="firstName" class="labels">FIRST NAME</label>
-							<input type="text" name="firstName" id="firstName" />
+			<div class="signupForm">
+				<div class="top">
+					<p class="warning">
+						This is not a real online service! You know you need something like
+						this in your life to help you realize your deepest dreams. Sign up
+						now to get started.<br /><br />You know you want to.
+					</p>
+				</div>
+				<div class="forms">
+					<form id="signUp">
+						<h2>Let's do this!</h2>
+						<div class="fName">
+							<div class="inputs">
+								<label for="firstName" class="labels">FIRST NAME</label>
+								<input type="text" name="firstName" id="firstName" />
+							</div>
 						</div>
-					</div>
-					<div class="lName">
-						<div class="inputs">
-							<label for="lastName" class="labels">LAST NAME</label>
-							<input type="text" name="lastName" id="lastName" />
+						<div class="lName">
+							<div class="inputs">
+								<label for="lastName" class="labels">LAST NAME</label>
+								<input type="text" name="lastName" id="lastName" />
+							</div>
 						</div>
-					</div>
-					<div class="email">
-						<div class="inputs">
-							<label for="email" class="labels">EMAIL</label>
-							<input type="email" name="email" id="email" />
+						<div class="email">
+							<div class="inputs">
+								<label for="email" class="labels">EMAIL</label>
+								<input type="email" name="email" id="email" />
+							</div>
 						</div>
-					</div>
-					<div class="inputs">
-						<label for="phone" class="labels">PHONE NUMBER</label>
-						<input type="tel" name="phone" id="phone" />
-					</div>
-					<div class="pass error">
 						<div class="inputs">
-							<label for="password" class="labels passwordLabel"
-								>PASSWORD</label
-							>
-							<input type="password" name="password" id="password" required />
+							<label for="phone" class="labels">PHONE NUMBER</label>
+							<input type="tel" name="phone" id="phone" />
 						</div>
-					</div>
-					<div class="confirmPass error">
-						<div class="inputs">
-							<label for="confirmPass" class="labels confirmLabel"
-								>CONFIRM PASSWORD</label
-							>
-							<input
-								type="password"
-								name="confirmPass"
-								id="confirmPass"
-								required
-							/>
+						<div class="pass error">
+							<div class="inputs">
+								<label for="password" class="labels passwordLabel"
+									>PASSWORD</label
+								>
+								<input type="password" name="password" id="password" required />
+							</div>
 						</div>
-					</div>
-				</form>
-			</div>
-			<div class="bottom">
-				<input
-					type="submit"
-					form="signUp"
-					value="Create Account"
-					class="btn"
-					disabled
-				/>
-				<p class="login">
-					<strong>Already have and account? <a href="/">Log in</a></strong>
-				</p>
+						<div class="confirmPass error">
+							<div class="inputs">
+								<label for="confirmPass" class="labels confirmLabel"
+									>CONFIRM PASSWORD</label
+								>
+								<input
+									type="password"
+									name="confirmPass"
+									id="confirmPass"
+									required
+								/>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="bottom">
+					<input
+						type="submit"
+						form="signUp"
+						value="Create Account"
+						class="btn"
+						disabled
+					/>
+					<p class="login">
+						<strong>Already have and account? <a href="/">Log in</a></strong>
+					</p>
+				</div>
 			</div>
 		</div>
 	</body>
